@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spare.Deco", "Spare.Deco\Spare.Deco.csproj", "{3D677F33-64E8-43B4-8388-154BC6CBB3B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spare.NUnitTest", "Spare.NUnitTest\Spare.NUnitTest.csproj", "{4C56D1BF-289A-445F-83E8-A90117A9D76E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spare.Test", "Spare.Test\Spare.Test.csproj", "{6B399DCF-4B8A-45C0-B263-588FE60D3CF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		{3D677F33-64E8-43B4-8388-154BC6CBB3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D677F33-64E8-43B4-8388-154BC6CBB3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D677F33-64E8-43B4-8388-154BC6CBB3B1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4C56D1BF-289A-445F-83E8-A90117A9D76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4C56D1BF-289A-445F-83E8-A90117A9D76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4C56D1BF-289A-445F-83E8-A90117A9D76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4C56D1BF-289A-445F-83E8-A90117A9D76E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B399DCF-4B8A-45C0-B263-588FE60D3CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B399DCF-4B8A-45C0-B263-588FE60D3CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B399DCF-4B8A-45C0-B263-588FE60D3CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B399DCF-4B8A-45C0-B263-588FE60D3CF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
