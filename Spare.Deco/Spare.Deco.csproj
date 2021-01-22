@@ -12,6 +12,6 @@
     <Copyright>Hoyeung Wong</Copyright>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Veho" Version="0.0.6" />
+    <PackageReference Include="Veho" Version="0.0.8" />
   </ItemGroup>
 </Project>
