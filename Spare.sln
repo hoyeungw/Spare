@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spare.Deco", "Spare.Deco\Sp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spare.Test", "Spare.Test\Spare.Test.csproj", "{6B399DCF-4B8A-45C0-B263-588FE60D3CF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spare.Padder", "Spare.Padder\Spare.Padder.csproj", "{149FA04D-2942-4FCB-85A6-2C97FB589F07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{6B399DCF-4B8A-45C0-B263-588FE60D3CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B399DCF-4B8A-45C0-B263-588FE60D3CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B399DCF-4B8A-45C0-B263-588FE60D3CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149FA04D-2942-4FCB-85A6-2C97FB589F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149FA04D-2942-4FCB-85A6-2C97FB589F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149FA04D-2942-4FCB-85A6-2C97FB589F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149FA04D-2942-4FCB-85A6-2C97FB589F07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
