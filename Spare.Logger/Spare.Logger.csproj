@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageVersion>0.0.7</PackageVersion>
-    <Title>Spare.Padder</Title>
-    <Description>Format each element of enumerables with identical string width</Description>
+    <Title>Spare.Logger</Title>
+    <Description>Extension functions for Debug and Console output</Description>
     <PackageTags>String,ToString</PackageTags>
     <Authors>Hoyeung Wong</Authors>
     <Company>Hoyeung Wong</Company>
@@ -14,7 +14,4 @@
     <FileVersion>0.0.7</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Veho" Version="0.0.17"/>
-  </ItemGroup>
 </Project>

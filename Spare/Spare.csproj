@@ -2,19 +2,23 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageVersion>0.0.7</PackageVersion>
-    <Title>Spare.Padder</Title>
-    <Description>Format each element of enumerables with identical string width</Description>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Title>Spare</Title>
+    <Description>Debug/Console output for formatted enumerables: array, 2d-array, dictionary, etc. into string for console output</Description>
     <PackageTags>String,ToString</PackageTags>
     <Authors>Hoyeung Wong</Authors>
     <Company>Hoyeung Wong</Company>
     <Copyright>Copyright (c) Hoyeung Wong 2020-present</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>0.0.7</AssemblyVersion>
-    <FileVersion>0.0.7</FileVersion>
+    <AssemblyVersion>0.0.1</AssemblyVersion>
+    <FileVersion>0.0.1</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Veho" Version="0.0.17"/>
+    <ProjectReference Include="..\Spare.Deco\Spare.Deco.csproj"/>
+    <ProjectReference Include="..\Spare.Logger\Spare.Logger.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Src"/>
   </ItemGroup>
 </Project>

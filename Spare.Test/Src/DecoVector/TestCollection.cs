@@ -1,9 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 using Spare.Deco;
-using Veho.Vector;
 using Veho.Matrix;
-using Inits = Veho.Matrix.Inits;
 
 namespace Spare.Test.DecoVector {
   [TestFixture]
@@ -22,7 +20,7 @@ namespace Spare.Test.DecoVector {
     }
     [Test]
     public void DecoMatrix1BTest() {
-      var elements = Base1.M1B<int>(3, 5);
+      var elements = (3, 5).M1B<int>();
       Console.WriteLine(elements.Deco());
       Assert.True(true);
     }
