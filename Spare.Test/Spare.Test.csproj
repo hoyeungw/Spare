@@ -19,6 +19,7 @@
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\Spare.Deco\Spare.Deco.csproj" />
+      <ProjectReference Include="..\Spare.Logger\Spare.Logger.csproj" />
     </ItemGroup>
 </Project>
 
