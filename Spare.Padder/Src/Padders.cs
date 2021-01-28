@@ -1,5 +1,6 @@
 ﻿using System;
 using Veho.Matrix;
+using Veho.Matrix.Columns;
 using Veho.Vector;
 
 namespace Spare.Padder {

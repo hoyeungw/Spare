@@ -2,17 +2,18 @@
 using Texting.Bracket;
 using Typen;
 using Veho.Matrix;
+using Veho.Matrix.Rows;
 using Veho.Vector;
 using static Texting.Enums.Chars;
 
 namespace Spare.Deco {
   public static class Decos {
-    // return "[" + string.Join(", ", arr) + "]";
     public static string Deco<T>(this T[] vector) => vector.Length == 0
       ? "[]"
-      : (SP + vector.Join(COSP) + SP).Bracket();
+      : vector.Join(COSP).Bracket();
 
     public static string Deco<T>(this T[,] matrix, byte tab = 1) {
+      if (!matrix.Any()) return "[]";
       var tabSpace = new string(' ', tab * 2);
       var (xlo, ylo) = (matrix.XLo(), matrix.YLo());
       var head = xlo != 0 || ylo != 0 ? $"{xlo}-{ylo}-based".Parenth() + SP : VO;
