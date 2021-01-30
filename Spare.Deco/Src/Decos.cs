@@ -1,5 +1,5 @@
 ﻿using Palett.Fluos;
-using Palett.Utils.Types;
+using Palett.Types;
 using Spare.Padder;
 using Texting.Bracket;
 using Typen;
