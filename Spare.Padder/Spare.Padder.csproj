@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -15,11 +15,11 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Texting" Version="0.0.17"/>
-    <PackageReference Include="Typen" Version="0.0.6"/>
-    <PackageReference Include="Veho" Version="0.1.1"/>
+    <PackageReference Include="Texting" Version="0.0.17" />
+    <PackageReference Include="Typen" Version="0.0.10" />
+    <PackageReference Include="Veho" Version="0.1.18" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Spare.Logger\Spare.Logger.csproj"/>
+    <ProjectReference Include="..\Spare.Logger\Spare.Logger.csproj" />
   </ItemGroup>
 </Project>

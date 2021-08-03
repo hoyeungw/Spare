@@ -4,7 +4,7 @@ using Spare.Deco;
 using Spare.Logger;
 using Veho.Matrix;
 using Veho.Types;
-using static Palett.Presets.PresetCollection;
+using static Palett.Presets;
 
 namespace Spare.Test.DecoVector {
   [TestFixture]
