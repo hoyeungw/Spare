@@ -2,15 +2,16 @@
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
   &lt;Assembly Path="C:\Users\hoyeu\.nuget\packages\veho.matrix\0.0.19\lib\netstandard2.0\Veho.Matrix.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=44d66eb1_002D9ced_002D49d0_002D962e_002D0012b470cae7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=44d66eb1_002D9ced_002D49d0_002D962e_002D0012b470cae7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::6B399DCF-4B8A-45C0-B263-588FE60D3CF6::.NETFramework,Version=v4.7.2::Spare.Test.DecoVector.LoggerTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::6B399DCF-4B8A-45C0-B263-588FE60D3CF6::.NETFramework,Version=v4.7.2::Spare.Test.DecoVector.TestCollection&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8700d873_002D81bd_002D4fed_002Dba09_002Df12295b7a3fa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Tester" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8700d873_002D81bd_002D4fed_002Dba09_002Df12295b7a3fa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Tester" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::6B399DCF-4B8A-45C0-B263-588FE60D3CF6::.NETFramework,Version=v4.7.2::Spare.Test.DecoVector.TestCollection&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::6B399DCF-4B8A-45C0-B263-588FE60D3CF6::.NETFramework,Version=v4.7.2::Spare.Test.DecoVector.LoggerTests.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::6B399DCF-4B8A-45C0-B263-588FE60D3CF6::.NETFramework,Version=v4.7.2::Spare.Test.DecoVector.LoggerTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageVersion>0.1.3</PackageVersion>
+    <PackageVersion>0.1.5</PackageVersion>
     <Title>Spare.Padder</Title>
     <Description>Format each element of enumerables with identical string width</Description>
     <PackageTags>String,ToString</PackageTags>
@@ -10,16 +10,16 @@
     <Company>Hoyeung Wong</Company>
     <Copyright>Copyright (c) Hoyeung Wong 2020-present</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>0.1.3</AssemblyVersion>
-    <FileVersion>0.1.3</FileVersion>
+    <AssemblyVersion>0.1.5</AssemblyVersion>
+    <FileVersion>0.1.5</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Texting" Version="0.0.17" />
-    <PackageReference Include="Typen" Version="0.0.10" />
-    <PackageReference Include="Veho" Version="0.1.18" />
+    <PackageReference Include="Texting" Version="0.0.18"/>
+    <PackageReference Include="Typen" Version="0.0.10"/>
+    <PackageReference Include="Veho" Version="0.2.4"/>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Spare.Logger\Spare.Logger.csproj" />
+    <ProjectReference Include="..\Spare.Logger\Spare.Logger.csproj"/>
   </ItemGroup>
 </Project>

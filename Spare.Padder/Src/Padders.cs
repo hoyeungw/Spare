@@ -1,9 +1,8 @@
 ﻿using System;
 using Texting.Lange;
 using Texting.Padder;
-using Veho.Matrix;
-using Veho.Matrix.Columns;
-using Veho.Vector;
+using Veho;
+using Veho.Columns;
 
 namespace Spare.Padder {
   public static class Padders {

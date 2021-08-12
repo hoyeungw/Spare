@@ -3,10 +3,8 @@ using Palett.Types;
 using Spare.Padder;
 using Texting.Bracket;
 using Typen;
-using Veho.Matrix;
-using Veho.Matrix.Rows;
-using Veho.Types;
-using Veho.Vector;
+using Veho;
+using Veho.Rows;
 using static Texting.Enums.Chars;
 
 namespace Spare.Deco {

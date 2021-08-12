@@ -2,8 +2,7 @@
 using NUnit.Framework;
 using Spare.Deco;
 using Spare.Logger;
-using Veho.Matrix;
-using Veho.Types;
+using Veho;
 using static Palett.Presets;
 
 namespace Spare.Test.DecoVector {
@@ -17,7 +16,7 @@ namespace Spare.Test.DecoVector {
     }
     [Test]
     public void DecoMatrixTest() {
-      var elements = Inits.Init(3, 5, (i, j) => Math.Pow(10, i * 2 + 1) + (j + 1));
+      var elements = Mat.Init(3, 5, (i, j) => Math.Pow(10, i * 2 + 1) + (j + 1));
       elements.Deco(orient: Operated.Rowwise, presets: (Metro, Planet)).Logger();
       elements.Deco().Logger();
       Assert.True(true);
