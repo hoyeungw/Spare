@@ -1,5 +1,4 @@
 ﻿using NUnit.Framework;
-using Spare.Logger;
 
 namespace Spare.Test.DecoVector {
   [TestFixture]

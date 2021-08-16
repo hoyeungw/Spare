@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Spare.Logger {
+namespace Spare {
   public static class Log {
     public static void Logger() => Console.WriteLine();
     public static void Logger<T>(this T message) => Console.WriteLine(message.ToString());

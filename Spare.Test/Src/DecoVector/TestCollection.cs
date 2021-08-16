@@ -1,8 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
-using Spare.Deco;
-using Spare.Logger;
 using Veho;
+using Veho.Types;
 using static Palett.Presets;
 
 namespace Spare.Test.DecoVector {
@@ -21,11 +20,11 @@ namespace Spare.Test.DecoVector {
       elements.Deco().Logger();
       Assert.True(true);
     }
-    [Test]
-    public void DecoMatrix1BTest() {
-      var elements = (3, 5).M1B<int>();
-      elements.Deco().Logger();
-      Assert.True(true);
-    }
+    // [Test]
+    // public void DecoMatrix1BTest() {
+    //   var elements = (3, 5).M1B<int>();
+    //   elements.DecoM1B().Logger();
+    //   Assert.True(true);
+    // }
   }
 }
