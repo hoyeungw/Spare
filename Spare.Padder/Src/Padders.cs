@@ -15,5 +15,17 @@ namespace Spare.Padder {
       );
       return matrix.Map((i, j, v) => padder(v, widths[j]));
     }
+    public static string[] RPadder(this string[] column, bool ansi = true) {
+      var lange = Langes.ToLange(ansi);
+      var padder = PadFactory.ToRPad(' ', ansi);
+      var width = column.Fold((max, tx) => Math.Max(max, lange(tx)), 0);
+      return column.Map(word => padder(word, width));
+    }
+    public static string[] LPadder(this string[] column, bool ansi = true) {
+      var lange = Langes.ToLange(ansi);
+      var padder = PadFactory.ToLPad(' ', ansi);
+      var width = column.Fold((max, tx) => Math.Max(max, lange(tx)), 0);
+      return column.Map(word => padder(word, width));
+    }
   }
 }
