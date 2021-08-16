@@ -1,6 +1,7 @@
 ﻿using Palett.Fluos;
 using Palett.Types;
 using Spare.Padder;
+using Texting.Enums;
 using Texting.Joiner;
 using Typen;
 using Veho.Matrix;
@@ -25,7 +26,7 @@ namespace Spare {
       }
       return textMatrix.Padder(hasAnsi)
                        .MapRows(row => row.Join(COSP))
-                       .ContingentLines(delim: COLF, level: tab);
+                       .ContingentLines(delim: COLF, level: tab, brac: Brac.BRK);
     }
   }
 }
