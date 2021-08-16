@@ -2,24 +2,18 @@
 using Palett.Types;
 using Spare.Padder;
 using Texting.Bracket;
+using Texting.Joiner;
 using Typen;
-using Veho;
+using Veho.Matrix;
+using Veho.PanBase;
 using Veho.Rows;
-using static Texting.Enums.Chars;
+using Veho.Types;
 
-namespace Spare.Deco {
-  public static class Decos {
-    public static string Deco<T>(
-      this T[] vector,
-      (Preset, Preset)? presets = null,
-      params Effect[] effects
-    ) {
-      if (vector.Length == 0) return "[]";
-      if (presets == null) return vector.Join(COSP).Bracket();
-      return vector.Fluo(presets.Value, effects).Join(COSP).Bracket();
-    }
+using static Texting.Enums.Strings;
 
-    public static string Deco<T>(
+namespace Spare {
+  public static partial class Decos {
+    public static string DecoM1B<T>(
       this T[,] matrix,
       byte tab = 1,
       bool hasAnsi = false,
