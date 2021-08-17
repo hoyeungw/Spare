@@ -5,7 +5,7 @@ namespace Spare.Test.DecoVector {
   public class DecoEntriesTest {
     [Test]
     public void DecoEntriesTestAlpha() {
-      Candidates.CarPlants.ToArray().DecoEntries().Logger();
+      Candidates.CarPlants.DecoEntries().Logger();
     }
   }
 }
