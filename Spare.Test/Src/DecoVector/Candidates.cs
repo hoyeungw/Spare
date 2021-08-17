@@ -3,7 +3,7 @@ using Veho;
 
 namespace Spare.Test.DecoVector {
   public static class Candidates {
-    public static List<(string key, string value)> CarPlants => Li.From(
+    public static List<(string key, string value)> CarPlants => Seq.From(
       ("SantAgata", "Lamborghini"),
       ("Angelholm", "Koenigsegg"),
       ("Molsheim", "Bugatti"),

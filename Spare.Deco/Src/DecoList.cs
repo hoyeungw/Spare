@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Palett.Types;
 using Typen;
-using Veho.List;
+using Veho.Sequence;
 using static Texting.Enums.Strings;
 
 namespace Spare {
