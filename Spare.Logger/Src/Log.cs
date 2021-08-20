@@ -9,5 +9,6 @@ namespace Spare {
       Console.WriteLine(message);
       Console.WriteLine();
     }
+    public static void Says<T>(this T message, string subject) => Console.WriteLine($">> [{subject}] {message.ToString()}");
   }
 }
