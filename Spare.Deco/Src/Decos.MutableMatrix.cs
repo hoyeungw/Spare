@@ -5,7 +5,7 @@ using Veho.Types;
 
 namespace Spare {
   public static partial class Decos {
-    public static string Deco<T>(
+    public static string DecoMutableMatrix<T>(
       this IReadOnlyList<IReadOnlyList<T>> matrix,
       byte tab = 1,
       bool hasAnsi = false,
