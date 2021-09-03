@@ -12,7 +12,7 @@ using Veho.Sequence;
 using Zippers = Veho.Vector.Zippers;
 
 namespace Spare {
-  public static class DecoEnt {
+  public static partial class Decoes {
     public static string DecoEntries<TK, TV>(
       this IReadOnlyList<(TK key, TV value)> entries,
       byte tab = 1,
@@ -32,7 +32,7 @@ namespace Spare {
       }
       textsA = textsA.LPadder(hasAnsi);
       textsB = textsB.RPadder(hasAnsi);
-      var textEntries = textsA.Zip(textsB, (k, v) => k + delim + v);
+      var textEntries = textsA.Zip(textsB, (k, v) => "(" + k + delim + v + ")");
       return textEntries.ContingentLines(delim: Strings.COLF, level: tab, Brac.BRK);
     }
 
@@ -40,7 +40,7 @@ namespace Spare {
       this IReadOnlyList<(TA x, TB y, TC z)> entries,
       byte tab = 1,
       bool hasAnsi = false,
-      string delim = Strings.RTSP,
+      string delim = Strings.COSP,
       (Preset, Preset)? presets = null,
       params Effect[] effects
     ) {
@@ -49,7 +49,7 @@ namespace Spare {
       IReadOnlyList<string>
         textsA = typeof(TA) == typeof(string) ? vecA.Cast<IReadOnlyList<TA>, IReadOnlyList<string>>() : vecA.Map(Conv.ToStr),
         textsB = typeof(TB) == typeof(string) ? vecB.Cast<IReadOnlyList<TB>, IReadOnlyList<string>>() : vecB.Map(Conv.ToStr),
-        textsC = typeof(TB) == typeof(string) ? vecC.Cast<IReadOnlyList<TC>, IReadOnlyList<string>>() : vecB.Map(Conv.ToStr);
+        textsC = typeof(TC) == typeof(string) ? vecC.Cast<IReadOnlyList<TC>, IReadOnlyList<string>>() : vecC.Map(Conv.ToStr);
       if (presets.HasValue && (hasAnsi = true)) {
         textsA = textsA.Fluo(presets.Value, effects);
         textsB = textsB.Fluo(presets.Value, effects);
@@ -58,9 +58,38 @@ namespace Spare {
       textsA = textsA.LPadder(hasAnsi);
       textsB = textsB.RPadder(hasAnsi);
       textsC = textsC.RPadder(hasAnsi);
-
-      Func<string, string, string, string> zipper = (x, y, z) => x + delim + y + delim + z;
+      Func<string, string, string, string> zipper = (x, y, z) => "(" + x + delim + y + delim + z + ")";
       var textEntries = Zippers.Zipper(zipper, textsA, textsB, textsC);
+      return textEntries.ContingentLines(delim: Strings.COLF, level: tab, Brac.BRK);
+    }
+
+    public static string DecoEntries<TA, TB, TC, TD>(
+      this IReadOnlyList<(TA a, TB b, TC c, TD d)> entries,
+      byte tab = 1,
+      bool hasAnsi = false,
+      string delim = Strings.COSP,
+      (Preset, Preset)? presets = null,
+      params Effect[] effects
+    ) {
+      if (!entries.Any()) return "[]";
+      var (vecA, vecB, vecC, vecD) = entries.Unwind();
+      IReadOnlyList<string>
+        textsA = typeof(TA) == typeof(string) ? vecA.Cast<IReadOnlyList<TA>, IReadOnlyList<string>>() : vecA.Map(Conv.ToStr),
+        textsB = typeof(TB) == typeof(string) ? vecB.Cast<IReadOnlyList<TB>, IReadOnlyList<string>>() : vecB.Map(Conv.ToStr),
+        textsC = typeof(TC) == typeof(string) ? vecC.Cast<IReadOnlyList<TC>, IReadOnlyList<string>>() : vecC.Map(Conv.ToStr),
+        textsD = typeof(TD) == typeof(string) ? vecD.Cast<IReadOnlyList<TD>, IReadOnlyList<string>>() : vecD.Map(Conv.ToStr);
+      if (presets.HasValue && (hasAnsi = true)) {
+        textsA = textsA.Fluo(presets.Value, effects);
+        textsB = textsB.Fluo(presets.Value, effects);
+        textsC = textsC.Fluo(presets.Value, effects);
+        textsD = textsD.Fluo(presets.Value, effects);
+      }
+      textsA = textsA.LPadder(hasAnsi);
+      textsB = textsB.RPadder(hasAnsi);
+      textsC = textsC.RPadder(hasAnsi);
+      textsD = textsD.RPadder(hasAnsi);
+      Func<string, string, string, string, string> zipper = (a, b, c, d) => "(" + a + delim + b + delim + c + delim + d + ")";
+      var textEntries = Zippers.Zipper(zipper, textsA, textsB, textsC, textsD);
       return textEntries.ContingentLines(delim: Strings.COLF, level: tab, Brac.BRK);
     }
   }
