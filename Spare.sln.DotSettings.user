@@ -11,6 +11,7 @@
     &lt;TestId&gt;NUnit3x::6B399DCF-4B8A-45C0-B263-588FE60D3CF6::.NETFramework,Version=v4.7.2::Spare.Test.DecoVector.DecoEntriesTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::6B399DCF-4B8A-45C0-B263-588FE60D3CF6::.NETFramework,Version=v4.7.2::Spare.Test.TupleTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::6B399DCF-4B8A-45C0-B263-588FE60D3CF6::.NETFramework,Version=v4.7.2::Spare.Test.LoggerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::6B399DCF-4B8A-45C0-B263-588FE60D3CF6::.NETFramework,Version=v4.7.2::Spare.Test.DecoesTests.DecoQuadriEntries&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8700d873_002D81bd_002D4fed_002Dba09_002Df12295b7a3fa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Tester" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
@@ -22,5 +23,6 @@
     &lt;TestId&gt;NUnit3x::6B399DCF-4B8A-45C0-B263-588FE60D3CF6::.NETFramework,Version=v4.7.2::Spare.Test.DecoVector.DecoEntriesTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::6B399DCF-4B8A-45C0-B263-588FE60D3CF6::.NETFramework,Version=v4.7.2::Spare.Test.TupleTests.TestAlpha&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::6B399DCF-4B8A-45C0-B263-588FE60D3CF6::.NETFramework,Version=v4.7.2::Spare.Test.LoggerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::6B399DCF-4B8A-45C0-B263-588FE60D3CF6::.NETFramework,Version=v4.7.2::Spare.Test.DecoesTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
