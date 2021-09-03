@@ -12,7 +12,7 @@ using Veho.Types;
 using static Texting.Enums.Strings;
 
 namespace Spare {
-  public static partial class Decos {
+  public static partial class Decoes {
     public static string DecoM1B<T>(
       this T[,] matrix,
       byte tab = 1,

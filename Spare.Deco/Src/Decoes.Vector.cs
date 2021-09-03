@@ -9,7 +9,7 @@ using Veho.Sequence;
 using static Texting.Enums.Strings;
 
 namespace Spare {
-  public static partial class Decos {
+  public static partial class Decoes {
     public static string Deco<T>(
       this IReadOnlyList<T> vector,
       string delim = COSP,

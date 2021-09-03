@@ -4,7 +4,7 @@ using Veho.Mutable.Matrix;
 using Veho.Types;
 
 namespace Spare {
-  public static partial class Decos {
+  public static partial class Decoes {
     public static string DecoMutableMatrix<T>(
       this IReadOnlyList<IReadOnlyList<T>> matrix,
       byte tab = 1,
