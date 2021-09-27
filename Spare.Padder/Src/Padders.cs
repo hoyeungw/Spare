@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Texting.Lange;
-using Texting.Padder;
+using Texting;
 using Veho.Columns;
 using Veho.Matrix;
 using Veho.Vector;

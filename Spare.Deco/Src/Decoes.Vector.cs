@@ -2,8 +2,8 @@
 using System.Linq;
 using Palett.Fluos;
 using Palett.Types;
+using Texting;
 using Texting.Enums;
-using Texting.Joiner;
 using Typen;
 using Veho.Sequence;
 using static Texting.Enums.Strings;

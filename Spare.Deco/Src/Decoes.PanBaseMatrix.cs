@@ -1,8 +1,8 @@
 ﻿using Palett.Fluos;
 using Palett.Types;
 using Spare.Padder;
+using Texting;
 using Texting.Bracket;
-using Texting.Joiner;
 using Typen;
 using Veho.Matrix;
 using Veho.PanBase;
