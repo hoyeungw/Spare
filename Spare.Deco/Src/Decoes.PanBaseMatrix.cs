@@ -5,10 +5,9 @@ using Texting;
 using Texting.Bracket;
 using Typen;
 using Veho.Matrix;
-using Veho.PanBase;
+using Veho.PanBase.Matrix;
 using Veho.Rows;
 using Veho.Types;
-
 using static Texting.Enums.Strings;
 
 namespace Spare {
