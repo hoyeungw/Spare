@@ -19,7 +19,7 @@ namespace Spare.Test {
         ("zen", 4, false),
         ("kha", 2, true)
       );
-      entries.DecoEntries(presets: (Presets.Jungle, Presets.Fresh)).Says("quadri entries");
+      entries.DecoEntries(presets: (Presets.Metro, Presets.Jungle)).Says("quadri entries");
     }
 
     [Test]
