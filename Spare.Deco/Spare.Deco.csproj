@@ -18,7 +18,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Palett" Version="0.4.12"/>
-    <PackageReference Include="Texting" Version="0.1.7"/>
+    <PackageReference Include="Texting" Version="0.1.9" />
     <PackageReference Include="Typen" Version="0.1.1"/>
     <PackageReference Include="Veho" Version="0.5.11"/>
   </ItemGroup>
