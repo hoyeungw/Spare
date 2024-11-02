@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageVersion>0.2.3</PackageVersion>
+    <PackageVersion>0.2.4</PackageVersion>
     <Title>Spare</Title>
     <Description>Debug/Console output for formatted enumerables: array, 2d-array, dictionary, etc. into string for console output</Description>
     <PackageTags>String,ToString</PackageTags>
@@ -10,9 +10,11 @@
     <Company>Hoyeung Wong</Company>
     <Copyright>Copyright (c) Hoyeung Wong 2020-present</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>0.2.3</AssemblyVersion>
-    <FileVersion>0.2.3</FileVersion>
+    <AssemblyVersion>0.2.4</AssemblyVersion>
+    <FileVersion>0.2.4</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>spare-avatar.png</PackageIcon>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Spare.Deco\Spare.Deco.csproj"/>
@@ -20,5 +22,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Src"/>
+    <None Include="..\README.md" Pack="true" PackagePath=""/>
+    <None Include="..\media\spare-avatar.png" Pack="true" PackagePath=""/>
   </ItemGroup>
 </Project>

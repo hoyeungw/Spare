@@ -12,7 +12,7 @@ namespace Spare.Test {
       var elements = Mat.Init(3, 5, (i, j) => Math.Pow(10, i * 2 + 1) + (j + 1));
       elements.Deco(orient: Operated.Rowwise, presets: (Metro, Planet)).Logger();
       elements.Deco().Logger();
-      Assert.True(true);
+      // Assert.True(true);
     }
     // [Test]
     // public void DecoMatrix1BTest() {
