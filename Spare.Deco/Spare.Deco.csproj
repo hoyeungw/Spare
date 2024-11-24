@@ -17,10 +17,10 @@
     <PackageIcon>spare-avatar.png</PackageIcon>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Palett" Version="0.4.16"/>
+    <PackageReference Include="Palett" Version="0.4.17" />
     <PackageReference Include="Texting" Version="0.1.10"/>
     <PackageReference Include="Typen" Version="0.1.1"/>
-    <PackageReference Include="Veho" Version="0.6.1"/>
+    <PackageReference Include="Veho" Version="0.6.3" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Spare.Padder\Spare.Padder.csproj"/>
