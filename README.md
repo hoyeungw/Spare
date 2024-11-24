@@ -7,7 +7,7 @@ Array and 2d-array colorful renderer for terminal output.
 [![Downloads](https://img.shields.io/nuget/dt/Spare.svg)](https://www.nuget.org/packages/Spare)
 [![Dependent Libraries](https://img.shields.io/librariesio/dependents/nuget/Spare.svg?label=dependent%20libraries)](https://libraries.io/nuget/Spare)
 [![Language](https://img.shields.io/badge/language-C%23-blueviolet.svg)](https://dotnet.microsoft.com/learn/csharp)
-[![Compatibility](https://img.shields.io/badge/compatibility-.NET%20Framework%204.7.2%2B%20%7C%20.NET%20Standard%202.0-blue.svg)]()
+[![Compatibility](https://img.shields.io/badge/compatibility-.NET%20Standard%202.0-blue.svg)]()
 [![License](https://img.shields.io/github/license/sharpyr/Spare.svg)](https://github.com/sharpyr/Spare/LICENSE)
 
 ## What is Spare?
