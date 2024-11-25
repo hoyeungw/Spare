@@ -2,8 +2,10 @@
 using Palett.Types;
 using Spare.Padder;
 using Texting;
+using Texting.Bracket;
 using Texting.Enums;
 using Typen;
+using Veho.Enumerable;
 using Veho.Matrix;
 using Veho.Rows;
 using Veho.Types;
@@ -27,6 +29,14 @@ namespace Spare {
       return textMatrix.Padder(hasAnsi)
                        .MapRows(row => row.Join(COSP))
                        .ContingentLines(delim: COLF, level: tab, brac: Brac.BRK);
+    }
+
+    public static string DecoFlat<T>(this T[,] matrix, string xde = COSP, string yde = COSP) {
+      if (!matrix.Any()) return "[]";
+      var textMatrix = matrix.Map(Conv.ToStr);
+      return textMatrix.Rows()
+                       .Map(row => row.Join(yde).Br(Brac.BRK))
+                       .Join(xde).Br(Brac.BRK);
     }
   }
 }

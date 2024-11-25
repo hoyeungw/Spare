@@ -1,24 +1,29 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using Veho;
-using Veho.Types;
-using static Palett.Presets;
+using static System.Math;
+using static Texting.Enums.Strings;
 
 namespace Spare.Test {
   [TestFixture]
   public partial class DecoesTests {
+    public static (string, double[,])[] Basics = {
+                                                   ("alpha", Mat.Boot(Cos(PI / 3))),
+                                                   ("alpha", Mat.Init(3, 5, (i, j) => Pow(10, i * 2 + 1) + (j + 1)))
+                                                 };
     [Test]
     public void DecoMatrixTest() {
-      var elements = Mat.Init(3, 5, (i, j) => Math.Pow(10, i * 2 + 1) + (j + 1));
-      elements.Deco(orient: Operated.Rowwise, presets: (Metro, Planet)).Logger();
-      elements.Deco().Logger();
-      // Assert.True(true);
+      foreach (var (key, matrix) in Basics) {
+        key.Logger();
+        matrix.Deco().Logger();
+      }
     }
-    // [Test]
-    // public void DecoMatrix1BTest() {
-    //   var elements = (3, 5).M1B<int>();
-    //   elements.DecoM1B().Logger();
-    //   Assert.True(true);
-    // }
+
+    [Test]
+    public void DecoFlatTest() {
+      foreach (var (key, matrix) in Basics) {
+        key.Logger();
+        matrix.DecoFlat(COLF, COSP).Logger();
+      }
+    }
   }
 }
