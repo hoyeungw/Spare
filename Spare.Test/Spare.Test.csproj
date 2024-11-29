@@ -14,7 +14,7 @@
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="NUnit" Version="4.2.2" />
-        <PackageReference Include="Veho" Version="0.6.6" />
+        <PackageReference Include="Veho" Version="0.6.12" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\Spare.Deco\Spare.Deco.csproj" />
